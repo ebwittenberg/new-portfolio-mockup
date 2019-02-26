@@ -10,5 +10,39 @@ html {
 .hero-image {
     color: white;
     background: black;
+    height: 400px;
     font-family: 'Nunito', sans-serif;
+    background-image: url(../images/apple-black-and-white-computer-129208.jpg);
+    background-size: cover;
+}
+
+.top-bar {
+    display: flex;
+    background: rgba(0,0,255,0.5)
+}
+.title-text {
+    border: 2px solid red;
+}
+
+.nav {
+    border: 2px solid blue;
+    display: flex;
+    padding: 0;
+    margin-left: 100px;
+}
+
+.nav li {
+    list-style: none;
+    margin: 10px;
+}
+
+.welcome-message {
+    text-align: center;
+    border: 3px solid red;
+    margin-top: 50px;
+}
+
+.secondary-text {
+    font-size: 12px;
+    font-style: italic;
 }
