@@ -21,14 +21,14 @@ html {
     background: rgba(0,0,255,0.5)
 }
 .title-text {
-    border: 2px solid red;
+    margin-left: 5px;
 }
 
 .nav {
-    border: 2px solid blue;
     display: flex;
     padding: 0;
     margin-left: 100px;
+    padding-top: 5.5px;
 }
 
 .nav li {
@@ -38,11 +38,29 @@ html {
 
 .welcome-message {
     text-align: center;
-    border: 3px solid red;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .secondary-text {
-    font-size: 12px;
+    font-size: 30px;
     font-style: italic;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.about-me {
+    height: 400px;
+    border: 2px solid red;
+}
+
+.smiling-image {
+    width: 45%;
+    border: 2px solid yellow;
+    margin-left: 25px;
+    height: 201px;
+    margin-top: 100px;
+}
+
+.smiling-image img {
+    border-radius: 50%
 }
