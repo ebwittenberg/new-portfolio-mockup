@@ -1,1 +1,14 @@
 /* Add styles here */
+html {
+    box-sizing: border-box
+}
+
+*, *:before, *:after {
+    box-sizing: inherit
+}
+
+.hero-image {
+    color: white;
+    background: black;
+    font-family: 'Nunito', sans-serif;
+}
