@@ -90,13 +90,28 @@ html {
     flex: 1;
     height: 500px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     transition: all .5s linear;
 }
 
+.project.pong {
+    background-image: url("../images/Screen\ Shot\ 2019-02-28\ at\ 2.20.19\ PM.png");
+    color: white;
+}
+
+.project.hotel {
+    background-image: url("../images/architecture-beach-building-258154.jpg");
+}
+
+.project.tic-tac-toe {
+    background-image: url("../images/Screen\ Shot\ 2019-02-28\ at\ 2.48.16\ PM.png");
+    background-size: auto;
+}
+
 .project.big {
     flex: 4;
+    background-size: cover;
 }
 
 .contact * {
