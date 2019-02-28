@@ -76,16 +76,27 @@ html {
     height: 570px;
     border: 2px solid yellow;
 }
+
+.projects h2 {
+    text-align: center;
+}
 .project-panels {
     display: flex;
 }
-.project1, .project2, .project3 {
+
+
+.project {
     border: 2px solid blue;
     flex: 1;
     height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .5s linear;
+}
+
+.project.big {
+    flex: 4;
 }
 
 .contact * {
