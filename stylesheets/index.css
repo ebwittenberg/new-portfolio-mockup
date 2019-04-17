@@ -43,12 +43,29 @@ html {
 }
 
 .about-me {
-    height: 450px;
+    height: 300px;
+    width: 75%;
+    margin: 0 auto;
 }
-.about-me ul li {
-    list-style-type: none;
-    margin-top: 5px;
+
+.skills {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
 }
+
+.skills-container  {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.known-skills, .learning-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 
 
 .featured-project {
