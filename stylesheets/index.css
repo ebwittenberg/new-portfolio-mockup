@@ -12,6 +12,12 @@ html {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    background-color: white;
+}
+
+.top-bar.fixed {
+    position: fixed;
+    z-index: 1000;
 }
 
 .hero-image {
