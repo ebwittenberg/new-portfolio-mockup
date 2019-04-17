@@ -7,19 +7,18 @@ html {
     box-sizing: inherit
 }
 
-.hero-image {
-    color: white;
-    background: black;
-    height: 400px;
-    font-family: 'Nunito', sans-serif;
-    background-image: url(../images/apple-black-and-white-computer-129208.jpg);
-    background-size: cover;
+.top-bar {
+    /* position: fixed; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
-.top-bar {
-    display: flex;
-    background: rgba(0,0,255,0.5)
+.hero-image {
+    height: 400px;
+    text-align: center;
 }
+
 .title-text {
     margin-left: 15px;
 }
@@ -27,18 +26,13 @@ html {
 .nav {
     display: flex;
     padding: 0;
-    margin-left: 200px;
     padding-top: 5.5px;
+    margin-right: 20px;
 }
 
 .nav li {
     list-style: none;
     margin: 10px;
-}
-
-.welcome-message {
-    text-align: center;
-    margin-top: 100px;
 }
 
 .secondary-text {
@@ -49,76 +43,57 @@ html {
 }
 
 .about-me {
-    display: flex;
-    height: 400px;
-    border: 2px solid red;
+    height: 450px;
+}
+.about-me ul li {
+    list-style-type: none;
+    margin-top: 5px;
 }
 
-.smiling-image {
-    border: 2px solid yellow;
-    border-radius: 50%;
-    margin-left: 25px;
-    height: 201px;
-    margin-top: 100px;
-}
 
-.smiling-image img {
-    border-radius: 50%
-}
-
-.about-me-text {
-    border: 2px solid green;
-    margin-top: 100px;
+.featured-project {
+    width: 75%;
+    margin: 0 auto;
     text-align: center;
-    height: 201px;
-}
-.projects {
-    height: 570px;
-    border: 2px solid yellow;
+    height: 600px;
+
 }
 
-.projects h2 {
+.other-projects {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    height: 800px;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.project1, .project2, .project3, .project4 {
+    width: 45%;
+    background-color: green;
+    height: 300px;
+}
+
+.project3, .project4 {
+    margin-top: 20px;
+}
+
+
+.contact {
+    width: 85%;
+    margin: 0 auto;
     text-align: center;
 }
-.project-panels {
+
+.contact-icons {
     display: flex;
-}
-
-
-.project {
-    border: 2px solid blue;
-    flex: 1;
-    height: 500px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    transition: all .5s linear;
-}
-
-.project.pong {
-    background-image: url("../images/Screen\ Shot\ 2019-02-28\ at\ 2.20.19\ PM.png");
-    color: white;
-}
-
-.project.hotel {
-    background-image: url("../images/architecture-beach-building-258154.jpg");
-}
-
-.project.tic-tac-toe {
-    background-image: url("../images/Screen\ Shot\ 2019-02-28\ at\ 2.48.16\ PM.png");
-    background-size: auto;
-}
-
-.project.big {
-    flex: 4;
-    background-size: cover;
-}
-
-.contact * {
-    display: inline-block;
-    margin-top: 25px;
-}
-
-.contact p {
-    margin-left: 25px;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
 }
