@@ -23,6 +23,10 @@ html {
 .hero-image {
     height: 400px;
     text-align: center;
+    background-image: url('/images/hero-image.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .title-text {
@@ -48,10 +52,28 @@ html {
     margin: 0 auto;
 }
 
-.about-me {
+.about {
     height: 300px;
     width: 75%;
     margin: 0 auto;
+    margin-top: 100px;
+}
+.picture-frame {
+    border: 2px solid blue;
+    float: right;
+    height: 250px;
+    width: 250px;
+    border: 15px solid white;
+    border-radius: 100%;
+    background-image: url('/images/eric_smiling.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: -150px;
+}
+
+.logo-container {
+    width: 50px;
+    height: 100px;
 }
 
 .skills {
@@ -62,16 +84,50 @@ html {
 
 .skills-container  {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.known {
+    flex: 1;
+}
+.learning {
+    flex: 1;
 }
 
 
 .known-skills, .learning-skills {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 
+.learning-skills {
+    margin-left: 30px;
+}
+
+.known-skills {
+    margin-right: 30px;
+}
+
+.known-skills > * {
+    margin: 20px;
+}
+
+.learning-skills > * {
+    margin: 20px;
+}
+
+.border {
+    border: 3px solid black;
+    margin: 5px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
 
 
 .featured-project {
