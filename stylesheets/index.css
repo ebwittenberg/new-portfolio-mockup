@@ -79,6 +79,7 @@ html {
 .skills {
     width: 75%;
     margin: 0 auto;
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -129,13 +130,56 @@ html {
     width: 50px;
 }
 
+.github-button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    margin-top: 45px;
+    color: white;
+    background: #A5D8F0;
+    border: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.github-button:hover {
+    background: grey;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
 
 .featured-project {
     width: 75%;
     margin: 0 auto;
     text-align: center;
-    height: 600px;
+    height: 800px;
+    margin-top: 300px;
 
+}
+
+.featured-project-desc {
+    margin-bottom: 100px;
+}
+
+.featured-media {
+    display: flex;
+}
+
+.youtube {
+    flex: 1;
+}
+
+.codepen {
+    flex: 1;
 }
 
 .other-projects {
