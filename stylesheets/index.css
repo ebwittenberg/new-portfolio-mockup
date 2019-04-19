@@ -2,6 +2,7 @@
 html {
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
+    scroll-behavior: smooth
 }
 
 *, *:before, *:after {
@@ -174,7 +175,7 @@ a {
     margin: 0 auto;
     text-align: center;
     height: 800px;
-    margin-top: 300px;
+    margin-top: 200px;
 
 }
 
