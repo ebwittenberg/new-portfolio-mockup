@@ -17,6 +17,7 @@ html {
     padding-right: 40px;
     padding-top: 15px;
     padding-bottom: 15px;
+    margin: 5px;
 }
 
 .top-bar {
@@ -174,7 +175,7 @@ a {
     width: 75%;
     margin: 0 auto;
     text-align: center;
-    height: 800px;
+    /* height: 800px; */
     margin-top: 200px;
 
 }
@@ -293,4 +294,27 @@ a {
 
 .hover {
     opacity: .1
+}
+
+@media (max-width: 1100px) {
+    .skills {
+        /* background-color: blue; */
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .featured-media {
+        display: block;
+    }
+
+    .youtube {
+        width: 400px;
+    }
+
+    .codepen {
+        width: 400px;
+    }
+
 }
