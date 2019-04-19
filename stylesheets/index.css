@@ -34,7 +34,7 @@ html {
 .hero-image {
     height: 400px;
     text-align: center;
-    background-image: url('/images/hero-image.JPG');
+    background-image: url('/images/hero-image.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
