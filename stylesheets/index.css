@@ -347,6 +347,10 @@ a {
         display: block;
     }
 
+    .featured-project {
+        width: 100%;
+    }
+
     .moviecloud-image {
         width: 100%;
     }
@@ -360,7 +364,7 @@ a {
     }
 
     .youtube {
-        width: 280px;
+        width: 100%;
     }
 
     .contact {
