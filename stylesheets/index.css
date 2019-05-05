@@ -225,6 +225,10 @@ a {
     justify-content: space-around;
 }
 
+.transport {
+    margin-top: 200px;
+}
+
 .description {
     margin-left: 20px;
 }
